@@ -39,4 +39,12 @@ public abstract class Person implements Man{
     public void say() {
         System.out.println("I'm a model");
     }
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name=" + name +
+                ", health=" + health +
+                ", hit='" + hit + '\'' +
+                '}';
+    }
 }
